@@ -1,0 +1,6 @@
+#!/bin/sh
+# 아무 폴더에서나 `quiz` 한 단어로 부른다. 맥·리눅스용.
+# 이 저장소 폴더를 PATH 에 넣거나 심볼릭 링크를 건다.
+here=$(CDPATH= cd -- "$(dirname -- "$0")" && pwd)
+cd "$here" || exit 1
+exec python3 -m src "$@"

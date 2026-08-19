@@ -1,0 +1,8 @@
+# 이 파일을 .quizrc 로 복사하고 경로를 채운다.
+# .quizrc 는 .gitignore 에 있다 — 노트 폴더의 절대경로가 들어가기 때문이다.
+#
+# 우선순위: 명령줄 인자 > 환경변수 > 이 파일 > 기본값
+
+dir    = C:/Users/me/Notes/quiz
+# ledger = C:/Users/me/Notes/quiz/_progress.md   # 기본은 <dir>/_progress.md
+count  = 5

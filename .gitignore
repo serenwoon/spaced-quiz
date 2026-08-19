@@ -4,3 +4,6 @@ __pycache__/
 
 # 진도 파일은 노트 폴더에 생긴다. 예시 폴더에서 시험 삼아 돌렸을 때 대비.
 fixtures/sample/_progress.md
+
+# 경로가 든 실물 설정. 예시는 .quizrc.example 로 공개한다.
+.quizrc
