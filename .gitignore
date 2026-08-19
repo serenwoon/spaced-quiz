@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+.venv/
+
+# 진도 파일은 노트 폴더에 생긴다. 예시 폴더에서 시험 삼아 돌렸을 때 대비.
+fixtures/sample/_progress.md
